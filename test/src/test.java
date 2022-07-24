@@ -15,7 +15,7 @@ public abstract class test extends Driver {
         ChromeOptions options = new ChromeOptions();
         // we are adding the argument that we want it
         // addimg my edge profile path to the options method
-        options.addArguments("user-data-dir=C:\\Users\\kullanıcı\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
+        options.addArguments("user-data-dir=C:\\Users\\frkyz\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
         options.addArguments("--start-maximized");
         // giving that options to the chromedriver object
         driver = new ChromeDriver(options);
